@@ -161,7 +161,9 @@ export default class ProfileLink extends Component {
                 <li>
                   <a
                     data-metabase-event={"Navbar;Profile Dropdown;About " + tag}
-                    onClick={this.openModal.bind(this, "about")}
+                    // onClick={this.openModal.bind(this, "about")}
+                    href={"http://www.vectorscient.com"}
+                    target="_blank"
                     className="Dropdown-item block text-white no-decoration"
                   >
                     {t`About VectorScient`}
